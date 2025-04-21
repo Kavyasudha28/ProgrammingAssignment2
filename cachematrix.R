@@ -1,5 +1,5 @@
 makeCacheMatrix <- function(x = matrix()) {
-  inv <- NULL #initiazing inverse as NULL
+  inv <- NULL # initializing inverse as NULL
   set <- function(y) {
     x <<- y #Assigning new matrix
     inv <<- NULL #reset the inverse cache
